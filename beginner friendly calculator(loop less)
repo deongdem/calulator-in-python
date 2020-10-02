@@ -1,0 +1,20 @@
+# let's start
+# input for numbers
+num1 = int(input("enter your first number:"))
+num2 = int(input("enter your second number:"))
+# first we will take input from the user for the what he/she want to do
+user_input = input("'+'=addition\n, '-'=subract\n, '*'=multiply\n, '/'=divide\n enter what you wanna do:")
+# making some if statements
+if user_input == "+" or user_input == "addition":
+  print(num1+num2)
+if user_input == "-" or user_input == "subtraction":
+  print(num1-num2)
+if user_input == "*" or user_input == "multiply":
+  print(num1*num2)
+if user_input == "/" or user_input == "divide":
+  print(num1/num2)
+ 
+ print("thanks for using..")
+
+
+
